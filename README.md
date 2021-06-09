@@ -20,4 +20,4 @@ Be it home or business, surveillance systems have become an essential part of se
 #### Refernces
 1. This work is inspired from M Khosarani's blend of [arduino and python](https://towardsdatascience.com/build-a-diy-mini-radar-using-arduino-python-and-streamlit-12a368ae03a4)
 2. [Streamlit documentation](https://docs.streamlit.io/en/stable/index.html)
-3. Plotly's python graphing library [documentation](https://plotly.com/python/)
+3. Plotly's python graphing library [API reference](https://plotly.com/python-api-reference/index.html)
