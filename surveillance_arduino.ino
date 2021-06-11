@@ -18,10 +18,6 @@ void setup()   {
   
 }
 
-
-//40 deg turn in 1 s
-//20 deg turn in 500ms
-//180 deg turn in 4500 ms
 // the loop() method runs over and over again,
 // as long as the Arduino has power
 void loop()                     
@@ -46,7 +42,7 @@ void rotateCW(void){
     {
       ival=0.8;
     }
-    delay(45);
+    delay(4500);
     Serial.println(i+str+ival);
   }
   digitalWrite(motorPin1, LOW); 
@@ -66,7 +62,7 @@ void rotateCCW(void){
     {
       ival=0.8;
     }
-    delay(65);
+    delay(4500);
     Serial.println(i+str+ival);
   }
    digitalWrite(motorPin2, LOW);
