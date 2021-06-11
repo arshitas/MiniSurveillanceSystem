@@ -31,7 +31,7 @@ void loop()
 void rotateCW(void){
   digitalWrite(motorPin1, HIGH); //rotates motor
   digitalWrite(motorPin2, LOW);    // set the Pin motorPin2 LOW
-  for(int i=0;i<=180;i=i+2)
+  for(int i=0;i<180;i=i+2)
   {
     int status=digitalRead(IRsensor);
     if(status==HIGH)
@@ -51,7 +51,7 @@ void rotateCW(void){
 void rotateCCW(void){
   digitalWrite(motorPin2, HIGH); //rotates motor
   digitalWrite(motorPin1, LOW);    // set the Pin motorPin1 LOW
-  for(int i=0;i<=180;i=i+2)
+  for(int i=180;i>0;i=i-2)
   {
     int status=digitalRead(IRsensor);
     if(status==HIGH)
