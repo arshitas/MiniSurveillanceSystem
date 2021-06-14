@@ -13,6 +13,9 @@ The embedded system is designed with Arduino Uno board with Atmega328P microcont
 2. IR sensor
 3. Plastic case BO motor
 
+### Circuit design
+![Circuit design](https://github.com/arshitas/MiniSurveillanceSystem/blob/main/Circuit%20design.png)
+
 ### Python libraries
 1. **Pyserial** : Enables the access of serial ports through python properties
 2. **Streamlit** : Open-source python library to develop custom webpages 
