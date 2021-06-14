@@ -1,5 +1,6 @@
 # Mini Surveillance System
 Be it home or business, surveillance systems have become an essential part of security. The system is designed to easily fit in closed spaces to detect intruders and presents visuals on your computer screen. 
+The embedded system is designed with Arduino Uno board with Atmega328P microcontroller. The IR sensor value and angle is serially transmitted which is retrieved by the python program to present on the web dashboard.
 
 ### Features
 1. Live dashboard
