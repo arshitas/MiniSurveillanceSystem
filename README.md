@@ -21,6 +21,9 @@ The embedded system is designed with Arduino Uno board with Atmega328P microcont
 2. **Streamlit** : Open-source python library to develop custom webpages 
 3. **Plotly** : Graphing library offers wide range of charts to make interactive, publication quality graphs.   
 
+### Dashboard
+![Streamlit dashboard](https://github.com/arshitas/MiniSurveillanceSystem/blob/main/streamlit_surveillance.gif)
+
 #### Refernces
 1. This work is inspired from M Khosarani's blend of [arduino and python](https://towardsdatascience.com/build-a-diy-mini-radar-using-arduino-python-and-streamlit-12a368ae03a4)
 2. [Streamlit documentation](https://docs.streamlit.io/en/stable/index.html)
